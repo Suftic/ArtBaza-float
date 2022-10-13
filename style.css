@@ -1,0 +1,450 @@
+body {
+    margin: 0!important;
+
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/* ********HEADER******* */
+
+.header {
+    height: 80px;
+    position: fixed;
+    background: #000;
+    z-index: 100;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+.header li, a {
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    list-style: none;
+}
+
+.logo {
+    padding: 0 20px;
+}
+
+.left_menu {
+    padding: 0!important;
+}
+
+.left_menu li {
+    padding: 0 30px;
+    float: right;
+
+}
+
+.right_menu {
+    padding: 0!important;
+}
+
+.right_menu li {
+    padding: 0 30px;
+    float: left;
+}
+
+/* ***********CONTENT******** */
+
+.main {
+    background: #2A2928;
+    padding-top: 80px;
+    
+}
+
+
+
+
+.first {
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+
+.first::before {
+    content: "";
+    width: 70%;
+    height: 100%;
+    background: url(./main_page/Baner.png) no-repeat ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: 100%;
+}
+
+/* ******* */
+h1 {
+    margin: 0!important;
+    color: #FFDA73;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 78px;
+
+}
+
+.main_title h3 {
+    margin: 0!important;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 29px; 
+}
+
+.main_title  {
+    position: absolute;
+    padding: 230px;
+    margin-left: 95px;
+}
+
+/* *****SECOND***** */
+
+.second {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.front_foto {
+    margin-left: 125px;
+    z-index: 40;
+    box-shadow: 52px 52px 0 0 #FFDA73;
+    margin-top: 50px;
+}
+
+
+.second_text {
+    position: absolute;
+    width: content;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:#fff ;
+    background-color: #2A2928B2;
+    top: 0;
+    right: 0;
+    padding: 20px 75px 20px 60px;
+    margin: 160px 50px 0 0;
+}
+
+
+.yellow_text {
+    color:#FFDA73;
+}
+
+.button_area {
+    text-align: center;
+    padding: 110px 0 100px 0;
+}
+
+.button1 {
+    color:#FFDA73; 
+    border:#FFDA73 solid 3px; 
+    background: none;
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 5px 12px 5px 12px;
+} 
+
+
+
+.third {
+    height: content;
+    width: 100%;
+    
+}
+
+.second_row {
+    width: 100%;
+}
+
+.one_row {
+    width: 33.3%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.two_row {
+    width: 33.3%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.three_row {
+    width: 33.3%;
+    float: left;
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    padding-top: 200px;
+
+}
+
+.title1_third {
+    margin: 0!important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    color:#FFDA73;
+    padding-bottom: 50px;
+}
+
+.title2_third {
+    margin: 0!important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    color:#FFDA73;
+    padding-bottom: 50px;
+
+}
+
+.title3_third {
+    margin: 0!important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    color:#FFDA73;
+    padding-bottom: 50px;
+
+}
+
+.inside_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.back_photos {
+    position: absolute;
+    z-index: 0;
+}
+
+.text1_inside_third {
+    padding: 115px 0 105px 0;
+    z-index: 5;
+}
+
+.little_yellow {
+    margin-bottom: 130px;
+    z-index: 5;
+}
+
+
+
+
+
+/* *******fourth*********** */
+
+
+.fourth {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .table_icons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.table_title {
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+
+.fourth_tittle {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    color:#FFDA73;
+    text-align: center;
+    padding: 40px 0 120px 0;
+}
+
+.table_icons {
+    text-align: center;
+}
+
+.fourth_icon1 {
+    width: 20%;
+    float: left;
+}
+
+.icons_title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+/* ************GALERY*************** */
+
+
+
+/* *******CONTACTS******* */
+.sixth {
+    width: 100%;
+}
+
+
+.img_title h2 {
+    margin: 0!important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    color:#FFDA73;
+    position: absolute; 
+    z-index: 20;
+}
+
+.img_text {
+    padding-top: 28px;
+}
+
+.back_img {
+    float: left;
+}
+
+.back_yellow {
+    padding-top: 90px;
+    float: left;
+}
+
+.contacts1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 180px 0 150px;
+    z-index: 5;
+
+}
+
+.main1_text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.main_text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.sec_text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0!important;
+
+}
+
+.icons {
+    float: left;
+    height: 35px;
+    padding-right: 35px;
+}
+
+/* ***********MAP************** */
+
+
+
+/* ******FOTTER****** */
+
+.footer {
+    background-color:#000;
+}
+
+.flex_footer {
+    width: 100%;
+}
+
+.first_logo {
+    padding: 135px 0 135px 0;
+    float: left;
+
+}
+
+.logo_footer {
+    float: left;
+    padding-left: 80px;
+}
+
+.text_footer {
+    float: right;
+    padding-left: 20px;
+}
+
+.flex_footer {
+    color:#fff;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+
+
+.second_nav_footer  {
+    float: right;
+    padding: 80px 250px 80px 50px;
+}
+
+.first_nav_footer {
+    float: right;
+    padding: 80px 100px 80px 50px;
+
+}
+
+.second_nav_footer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.first_nav_footer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer_icons {
+    margin-left: 20px;
+}
